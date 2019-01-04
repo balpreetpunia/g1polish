@@ -7,24 +7,31 @@ if (!$con) {
     die('Could not connect: ' . mysqli_error($con));
 }
 
+/* change character set to utf8 */
+if (!$con->set_charset("utf8")) {
+    exit();
+} else {
+}
 mysqli_select_db($con,"g1polish");
 $sql="SELECT * FROM data WHERE id = '".$q."'";
 $result = mysqli_query($con,$sql);
 while($row = mysqli_fetch_array($result)) {
+
+    $correct = $row['correct'];
     $string = '<div id="question" class="row">
                         <div class="text-left"><strong>' . $row['question'] . '</strong></div>
                     </div>
                     <div id="options" class="pt-1">
-                        <div class="row pl-2">
+                        <div class="row pl-2 '.(($correct==1)?'correct':"").'">
                             <p><i class="far fa-circle d-none d-md-inline"></i>&nbsp;' . $row['optiona'] . '</p>
                         </div>
-                        <div class="row pl-2">
+                        <div class="row pl-2 '.(($correct==2)?'correct':"").'">
                             <p><i class="far fa-circle d-none d-md-inline"></i>&nbsp;' . $row['optionb'] . '</p>
                         </div>
-                        <div class="row pl-2">
+                        <div class="row pl-2 '.(($correct==3)?'correct':"").'">
                             <p><i class="far fa-circle d-none d-md-inline"></i>&nbsp;' . $row['optionc'] . '</p>
                         </div>
-                        <div class="row pl-2">
+                        <div class="row pl-2 '.(($correct==4)?'correct':"").'">
                             <p><i class="far fa-circle d-none d-md-inline"></i>&nbsp;' . $row['optiond'] . '</p>
                         </div>
                     </div>

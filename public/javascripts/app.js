@@ -5,12 +5,12 @@ $(document).ready(function(){
     get(position);
 
     $("body").on("click","#options > div",function(){
-        var correct = $("#options > div:nth-child(1)");
+        var correct = $(".correct");
         $(this).css("background-color","#eeeeee");
         correct.css("background-color","#b7dcff");
 
-        $("#options > div:nth-child(1) > p > i").removeClass("fa-circle");
-        $("#options > div:nth-child(1) > p > i").addClass("fa-dot-circle");
+        $(".correct > p > i").removeClass("fa-circle");
+        $(".correct > p > i").addClass("fa-dot-circle");
         $("#options").css("pointer-events","none");
 
         if($(this).is(correct)) {
