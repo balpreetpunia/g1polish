@@ -26,4 +26,27 @@
         background: #eeeeee;
         cursor: pointer;
     }
+
+    .current{
+        border: 1px solid black;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    #question{
+        font-size: large;
+    }
+
+    #options > div{
+        font-size: medium;
+        font-weight: bold;
+        background-color: #f7f7f7;
+        border: 1px solid #ededed;
+    }
+
+    #bottom-bar{
+        position: fixed;
+        bottom: 0;
+        width: 100%;
+    }
 }

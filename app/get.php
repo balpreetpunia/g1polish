@@ -1,5 +1,4 @@
 <?php
-header("Content-Type: text/html;charset=UTF-8");
 $q = intval($_GET['q']);
 
 $con = mysqli_connect('localhost','root','','g1polish');
@@ -8,20 +7,18 @@ if (!$con) {
 }
 
 /* change character set to utf8 */
-if (!$con->set_charset("utf8")) {
-    exit();
-} else {
-}
+$con->set_charset("utf8");
+
 mysqli_select_db($con,"g1polish");
 $sql="SELECT * FROM data WHERE id = '".$q."'";
 $result = mysqli_query($con,$sql);
 while($row = mysqli_fetch_array($result)) {
 
     $correct = $row['correct'];
-    $string = '<div id="question" class="row">
+    $string = '<div id="question" class="row pl-2">
                         <div class="text-left"><strong>' . $row['question'] . '</strong></div>
                     </div>
-                    <div id="options" class="pt-1">
+                    <div id="options" class="pt-3">
                         <div class="row pl-2 '.(($correct==1)?'correct':"").'">
                             <p><i class="far fa-circle d-none d-md-inline"></i>&nbsp;' . $row['optiona'] . '</p>
                         </div>
@@ -35,10 +32,10 @@ while($row = mysqli_fetch_array($result)) {
                             <p><i class="far fa-circle d-none d-md-inline"></i>&nbsp;' . $row['optiond'] . '</p>
                         </div>
                     </div>
-                    <div class="row justify-content-end p-2">
-                        <div class="col-lg-3">
-                            <button id="skip-button" class="btn btn-outline-dark" style="width: 100%">Skip&nbsp;<i class="fas fa-angle-double-right"></i></button>
-                            <button id="next-button" class="btn btn-outline-dark" style="width: 100%"hidden>Next&nbsp;<i class="fas fa-chevron-right"></i></button>
+                    <div id="bottom-bar" class="row justify-content-end">
+                        <div class="col-lg-3 p-0 pt-3 pb-2">
+                            <button id="skip-button" class="btn btn-lg btn-outline-dark" style="width: 100%">Pominąć&nbsp;<i class="fas fa-angle-double-right"></i></button>
+                            <button id="next-button" class="btn btn-lg btn-outline-dark" style="width: 100%"hidden>Kolejny&nbsp;<i class="fas fa-chevron-right"></i></button>
                         </div>
                     </div>';
 }
