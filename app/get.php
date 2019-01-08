@@ -31,12 +31,6 @@ while($row = mysqli_fetch_array($result)) {
                         <div class="row pl-2 '.(($correct==4)?'correct':"").'">
                             <p><i class="far fa-circle d-none d-md-inline"></i>&nbsp;' . $row['optiond'] . '</p>
                         </div>
-                    </div>
-                    <div id="bottom-bar" class="row justify-content-end">
-                        <div class="col-12 col-lg-3 p-2">
-                            <button id="skip-button" class="btn btn-lg btn-outline-dark" style="width: 100%">Pominąć&nbsp;<i class="fas fa-angle-double-right"></i></button>
-                            <button id="next-button" class="btn btn-lg btn-outline-dark" style="width: 100%"hidden>Kolejny&nbsp;<i class="fas fa-chevron-right"></i></button>
-                        </div>
                     </div>';
 }
     echo call_user_func_array('mb_convert_encoding', array(&$string,'HTML-ENTITIES','UTF-8'));

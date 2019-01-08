@@ -49,5 +49,18 @@
         position: fixed;
         bottom: 0;
         width: 100%;
+        background-color: white;
+    }
+
+    nav{
+        padding-top: 0;
+        padding-bottom: 0;
+    }
+}
+
+@media screen and (max-width: 991px) and (min-width: 575px){
+    #bottom-bar{
+        left: 0;
+        margin-left: 0;
     }
 }

@@ -14,13 +14,10 @@
 <body>
     <nav class="navbar navbar-expand-lg navbar-light bg-light">
         <a class="navbar-brand" href="#">G1 Polish</a>
-        <button class="navbar-toggler">
-        <span class="navbar-toggler-icon"></span>
-        </button>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <button class="navbar-toggler collapsed" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
         </button>
-        <div class="collapse navbar-collapse" id="navbarNav">
+        <div class="navbar-collapse collapse" id="navbarNav" style="">
             <ul class="navbar-nav">
                 <li class="nav-item active">
                     <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
@@ -37,16 +34,24 @@
             </ul>
         </div>
     </nav>
-    <div class="container pt-1">
+    <div class="container pt-1 mb-5 pb-5">
         <div class="row">
             <div class="col-lg-4 d-none d-md-inline">
                 <div class="text-center"><strong>Twój postęp</strong></div>
                 <div id="progress-table" class="pt-2">
                 </div>
+                <div id="progress-bar-computer" class="row text-center pt-2">
+                </div>
             </div>
             <br>
             <div class="col-lg-8">
                 <div id="get">
+                </div>
+                <div id="bottom-bar" class="row justify-content-end">
+                    <div class="col-12 col-lg-3 p-2">
+                        <button id="skip-button" class="btn btn-lg btn-outline-dark" style="width: 100%">Pominąć&nbsp;<i class="fas fa-angle-double-right"></i></button>
+                        <button id="next-button" class="btn btn-lg btn-outline-dark" style="width: 100%"hidden>Kolejny&nbsp;<i class="fas fa-chevron-right"></i></button>
+                    </div>
                 </div>
             </div>
         </div>

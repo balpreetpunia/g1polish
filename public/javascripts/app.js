@@ -4,12 +4,18 @@ $(document).ready(function(){
     var total_questions = 40;
     var table_correct;
     var question_array = [];
+    var is_mobile;
+    var error;
 
+
+    setIsMobile();
     getQuestionArray();
     getPosition();
+    setVarError();
     getTableCorrect();
     getQuestion();
     getTable(total_questions,colorTable);
+    setProgressBar();
 
 
     /**
@@ -59,7 +65,10 @@ $(document).ready(function(){
             $("#progress-table > div:nth-child("+position+")").css("background-color", "#ffb5bc");
             correct.siblings().css("text-decoration", "line-through");
             table_correct[position] = 0;
+            error++;
+            Cookies.set("error",error);
             Cookies.set('table_correct',JSON.stringify(table_correct));
+            setError();
         }
         position++;
         Cookies.set('position',position);
@@ -73,6 +82,8 @@ $(document).ready(function(){
      * Next button
      */
     $("body").on("click","#next-button",function(){
+        $("#skip-button").prop("hidden",false);
+        $("#next-button").prop("hidden",true);
         getQuestion(position);
         colorCurrent();
     });
@@ -88,7 +99,10 @@ $(document).ready(function(){
         table_correct[position] = 2;
         Cookies.set('table_correct',JSON.stringify(table_correct));
         position++;
+        error++;
         Cookies.set('position',position);
+        Cookies.set('error',error);
+        setError();
         colorCurrent();
         getQuestion(position);
     });
@@ -107,6 +121,7 @@ $(document).ready(function(){
         $.get("/g1polish/app/get.php?q="+question_array[position-1], function(data, status){
             $("#get").html(data);
         });
+        setProgress();
     }
 
 
@@ -130,7 +145,7 @@ $(document).ready(function(){
             table_correct = JSON.parse(Cookies.get('table_correct'));
         }
         else {
-            table_correct = [0];
+            table_correct = [9];
             Cookies.set('table_correct',JSON.stringify(table_correct), { expires: 30 });
         }
     }
@@ -182,8 +197,57 @@ $(document).ready(function(){
         Cookies.remove('position');
         Cookies.remove('table_correct');
         Cookies.remove('question_array');
+        Cookies.remove('error');
         location.reload();
     });
+
+    /**
+     * Set Is Mobile
+     */
+    function setIsMobile() {
+        if($( window ).width()<992){
+            is_mobile = true
+        }
+        else {
+            is_mobile = false;
+        }
+        console.log(is_mobile);
+    }
+
+    /**
+     * Set Error
+     */
+    function setVarError() {
+        if(Cookies.get("error")){
+            error = Cookies.get("error");
+        }
+        else{
+            error = 0;
+            Cookies.set("error",error, { expires: 30 });
+        }
+    }
+
+    /**
+     * Set progress
+     */
+    function setProgressBar(){
+        if(is_mobile==true){
+            $(".navbar-brand").after('<div class="btn btn-light">Error<span id="error" style="display: block;"></span></div><div class="btn btn-light">Progress<span id="progress" style="display: block;"></span></div>');
+        }
+        else {
+            $("#progress-bar-computer").html('<div class="col-6"><strong>Error <span id="error"></span></strong></div><div class="col-6"><strong>Progress <span id="progress"></span></strong></div>');
+        }
+        setProgress();
+        setError();
+    }
+    
+    function setProgress() {
+        $("#progress").html(position+"/"+total_questions);
+    }
+
+    function setError() {
+        $("#error").html(error);
+    }
 
 });
 
