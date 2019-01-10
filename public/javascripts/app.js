@@ -96,6 +96,7 @@ $(document).ready(function(){
      * Skip button
      */
     $("body").on("click","#skip-button",function(){
+        resetStyle();
         if(!is_mobile){$("#progress-table > div:nth-child("+position+")").css("background-color", "#eeeeee");}
         table_correct[position] = 2;
         Cookies.set('table_correct',JSON.stringify(table_correct));
