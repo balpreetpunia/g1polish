@@ -118,7 +118,7 @@ $(document).ready(function(){
      * Get next question
      */
     function getQuestion(callback){
-        $.get("/g1polish/app/get.php?q="+question_array[position-1], function(data, status){
+        $.get("/app/get.php?q="+question_array[position-1], function(data, status){
             $("#get").html(data);
             if(callback) callback();
         });
@@ -131,7 +131,7 @@ $(document).ready(function(){
      * Get table
      */
     function getTable(total_questions, callback){
-        $.get("/g1polish/app/getTable.php?q=" + total_questions, function(data, status){
+        $.get("/app/getTable.php?q=" + total_questions, function(data, status){
             $("#progress-table").html(data);
             callback();
         });
