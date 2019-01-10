@@ -13,8 +13,8 @@ $(document).ready(function(){
     getPosition();
     setVarError();
     getTableCorrect();
-    getQuestion();
-    getTable(total_questions,colorTable);
+    getQuestion(setProgress());
+    if(!is_mobile){getTable(total_questions,colorTable);}
     setProgressBar();
 
 
@@ -57,12 +57,12 @@ $(document).ready(function(){
         $("#options").css("pointer-events","none");
 
         if($(this).is(correct)) {
-            $("#progress-table > div:nth-child("+position+")").css("background-color", "#b7dcff");
+            if(!is_mobile){$("#progress-table > div:nth-child("+position+")").css("background-color", "#b7dcff");}
             table_correct[position] = 1;
             Cookies.set('table_correct',JSON.stringify(table_correct));
         }
         else{
-            $("#progress-table > div:nth-child("+position+")").css("background-color", "#ffb5bc");
+            if(!is_mobile){$("#progress-table > div:nth-child("+position+")").css("background-color", "#ffb5bc");}
             correct.siblings().css("text-decoration", "line-through");
             table_correct[position] = 0;
             error++;
@@ -84,8 +84,8 @@ $(document).ready(function(){
     $("body").on("click","#next-button",function(){
         $("#skip-button").prop("hidden",false);
         $("#next-button").prop("hidden",true);
-        getQuestion(position);
-        colorCurrent();
+        getQuestion(setProgress());
+        if(!is_mobile){colorCurrent();}
     });
 
 
@@ -95,7 +95,7 @@ $(document).ready(function(){
      * Skip button
      */
     $("body").on("click","#skip-button",function(){
-        $("#progress-table > div:nth-child("+position+")").css("background-color", "#eeeeee");
+        if(!is_mobile){$("#progress-table > div:nth-child("+position+")").css("background-color", "#eeeeee");}
         table_correct[position] = 2;
         Cookies.set('table_correct',JSON.stringify(table_correct));
         position++;
@@ -103,8 +103,8 @@ $(document).ready(function(){
         Cookies.set('position',position);
         Cookies.set('error',error);
         setError();
-        colorCurrent();
-        getQuestion(position);
+        if(!is_mobile){colorCurrent();}
+        getQuestion(setProgress());
     });
 
     $("body").on("click touchstart","body",function(){
@@ -117,11 +117,11 @@ $(document).ready(function(){
     /**
      * Get next question
      */
-    function getQuestion(){
+    function getQuestion(callback){
         $.get("/g1polish/app/get.php?q="+question_array[position-1], function(data, status){
             $("#get").html(data);
+            if(callback) callback();
         });
-        setProgress();
     }
 
 
@@ -139,7 +139,9 @@ $(document).ready(function(){
 
 
 
-
+    /**
+     * Get table_correct from cookie or create one
+     */
     function getTableCorrect() {
         if(Cookies.get('table_correct')){
             table_correct = JSON.parse(Cookies.get('table_correct'));
@@ -151,8 +153,9 @@ $(document).ready(function(){
     }
 
 
-
-
+    /**
+     * get Position from cookie or create one
+     */
     function getPosition(){
         if(Cookies.get('position')){
             position = Cookies.get('position');
@@ -164,8 +167,9 @@ $(document).ready(function(){
     }
 
 
-
-
+    /**
+     * Color table divs
+     */
     function colorTable() {
         for(var i = 1; i < table_correct.length; i++){
             if(table_correct[i] == 0){
@@ -205,7 +209,7 @@ $(document).ready(function(){
      * Set Is Mobile
      */
     function setIsMobile() {
-        if($( window ).width()<992){
+        if($( window ).width()<768){
             is_mobile = true
         }
         else {
@@ -228,7 +232,7 @@ $(document).ready(function(){
     }
 
     /**
-     * Set progress
+     * Set progress bar
      */
     function setProgressBar(){
         if(is_mobile==true){
@@ -240,11 +244,17 @@ $(document).ready(function(){
         setProgress();
         setError();
     }
-    
+
+    /**
+     * Set Progress
+     */
     function setProgress() {
         $("#progress").html(position+"/"+total_questions);
     }
 
+    /**
+     * Set error
+     */
     function setError() {
         $("#error").html(error);
     }

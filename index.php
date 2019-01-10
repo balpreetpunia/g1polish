@@ -1,46 +1,55 @@
 <!DOCTYPE html>
-<html>
+<html lang="pl">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="Content-Language" content="pl">
     <meta http-equiv="Content-type" content="text/html; charset=UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>G1 Polish</title>
+    <link rel="apple-touch-icon" sizes="180x180" href="public/favicon/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="public/favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="public/favicon/favicon-16x16.png">
+    <link rel="manifest" href="public/favicon/site.webmanifest">
     <link href="https://fonts.googleapis.com/css?family=Ubuntu" rel="stylesheet">
-    <link rel="stylesheet" href="public/stylesheets/bootstrap.css">
+    <link rel="stylesheet" href="public/stylesheets/bootstrap.min.css">
     <link rel="stylesheet" href="public/stylesheets/styles.css">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
 </head>
 <body>
     <nav class="navbar navbar-expand-lg navbar-light bg-light">
-        <a class="navbar-brand" href="#">G1 Polish</a>
-        <button class="navbar-toggler collapsed" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="navbar-collapse collapse" id="navbarNav" style="">
-            <ul class="navbar-nav">
-                <li class="nav-item active">
-                    <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#">Features</a>
-                </li>
-                <li id="reset" class="nav-item">
-                    <a class="nav-link" href="">Reset</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link disabled" href="#">Disabled</a>
-                </li>
-            </ul>
+        <div class="container">
+            <a class="navbar-brand" href="#">G1 Polish</a>
+            <button class="navbar-toggler collapsed" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="navbar-collapse collapse" id="navbarNav" style="">
+                <ul class="navbar-nav ml-md-auto">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="about-us.html">About Us</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="contact.html">Contact Us</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="privacy-policy.html">Privacy Policy</a>
+                    </li>
+                </ul>
+                <div id="reset">
+                    <button class="btn btn-outline-dark" href="">Reset</button>
+                </div>
+            </div>
         </div>
     </nav>
-    <div class="container pt-1 mb-5 pb-5">
+    <div class="container pt-2 mb-5 pb-5">
         <div class="row">
             <div class="col-lg-4 d-none d-md-inline">
                 <div class="text-center"><strong>Twój postęp</strong></div>
                 <div id="progress-table" class="pt-2">
                 </div>
-                <div id="progress-bar-computer" class="row text-center pt-2">
+                <div id="progress-bar-computer" class="row text-center pt-2 mb-3">
                 </div>
             </div>
             <br>

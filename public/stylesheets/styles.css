@@ -11,7 +11,7 @@
     }
     #progress-table > div{
         float: left;
-        width: 38px;
+        width: /*38px*/12.5%;
         height: 32px;
         text-align: center;
         font-weight: bold;
@@ -62,5 +62,8 @@
     #bottom-bar{
         left: 0;
         margin-left: 0;
+    }
+    #progress-table > div{
+        width: 5%;
     }
 }
