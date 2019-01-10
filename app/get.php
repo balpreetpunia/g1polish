@@ -36,6 +36,7 @@ while($row = mysqli_fetch_array($result)) {
                     </div>';
 }
     echo 'end';
+    echo $string;
     echo call_user_func_array('mb_convert_encoding', array(&$string,'HTML-ENTITIES','UTF-8'));
 mysqli_close($con);
 ?>
