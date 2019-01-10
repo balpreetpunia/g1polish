@@ -15,7 +15,6 @@ $sql="SELECT * FROM data WHERE id = '".$q."'";
 $result = mysqli_query($con,$sql);
 while($row = mysqli_fetch_array($result)) {
 
-    echo 'loop';
     $correct = $row['correct'];
     $string = '<div id="question" class="row pl-2">
                         <div class="text-left"><strong>' . $row['question'] . '</strong></div>
@@ -35,8 +34,7 @@ while($row = mysqli_fetch_array($result)) {
                         </div>
                     </div>';
 }
-    echo 'end';
     echo $string;
-    echo call_user_func_array('mb_convert_encoding', array(&$string,'HTML-ENTITIES','UTF-8'));
+    //echo call_user_func_array('mb_convert_encoding', array(&$string,'HTML-ENTITIES','UTF-8'));
 mysqli_close($con);
 ?>
