@@ -82,6 +82,7 @@ $(document).ready(function(){
      * Next button
      */
     $("body").on("click","#next-button",function(){
+        resetStyle();
         $("#skip-button").prop("hidden",false);
         $("#next-button").prop("hidden",true);
         getQuestion(setProgress());
@@ -118,8 +119,15 @@ $(document).ready(function(){
      * Get next question
      */
     function getQuestion(callback){
-        $.get("app/get.php?q="+question_array[position-1], function(data, status){
-            $("#get").html(data);
+        $.getJSON("app/get.php?q="+question_array[position-1], function(data){
+            console.log(data);
+            var correct = data.correct;
+            $("#question > div > strong").html(data.question);
+            $("#optiona > p ").html('&nbsp;'+data.optiona);
+            $("#optionb > p ").html('&nbsp;'+data.optionb);
+            $("#optionc > p ").html('&nbsp;'+data.optionc);
+            $("#optiond > p ").html('&nbsp;'+data.optiond);
+            $("#options > div:nth-child("+correct+")").addClass("correct");
             if(callback) callback();
         });
     }
@@ -257,6 +265,11 @@ $(document).ready(function(){
      */
     function setError() {
         $("#error").html(error);
+    }
+
+    function resetStyle() {
+        $("#options, #optiona, #optionb, #optionc, #optiond").removeAttr("style");
+        $("#optiona, #optionb, #optionc, #optiond").removeClass("correct");
     }
 
 });

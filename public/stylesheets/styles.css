@@ -22,6 +22,7 @@
     }
     #options > div{
         font-size: 22px;
+        display: -webkit-box;
     }
     #options > div:hover{
         background: #eeeeee;

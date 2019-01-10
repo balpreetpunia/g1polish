@@ -1,0 +1,983 @@
+[
+  {
+    "id": 0,
+    "question": "Na skrzyżowaniu opatrzonym pulsującym żółtym swiatłem powinieneś:",
+    "optiona": "Zatrzymać się jeśli skręcasz w prawo",
+    "optionb": "Przejechać z tą samą prędkością",
+    "optionc": "Zatrzymać się jeśli skręcasz w lewo",
+    "optiond": "Zmniejszyć prędkość i przejechać ostrożnie",
+    "correct": 4
+  },
+  {
+    "id": 1,
+    "question": "Na skrzyżowaniu opatrzonym pulsującym żółtym swiatłem powinieneś:",
+    "optiona": "Zatrzymać się jeśli skręcasz w prawo",
+    "optionb": "Przejechać z tą samą prędkością",
+    "optionc": "Zatrzymać się jeśli skręcasz w lewo",
+    "optiond": "Zmniejszyć prędkość i przejechać ostrożnie",
+    "correct": 4
+  },
+  {
+    "id": 2,
+    "question": "Nie wolno używać świateł awaryjnych do wskazania....",
+    "optiona": "Unieruchomionego pojazdu",
+    "optionb": "Pojazdu zaparkowanego",
+    "optionc": "Niebezpiecznej sytuacji",
+    "optiond": "",
+    "correct": 2
+  },
+  {
+    "id": 3,
+    "question": "Gdy wjeżdżasz na autostradę powinieneś:",
+    "optiona": "Zatrzymać się na pasie przyspieszenia, znaleźć lukę pomiędzy pojazdami, po czym szybko włączyć się do ruchu",
+    "optionb": "Przyspieszyć aby osiągnąć prędkość pojazdów jadących autostradą i włączyć się bezpiecznie do ruchu",
+    "optionc": "Zwolnić, po czym wjechać na autostradę ostrym zakrętem",
+    "optiond": "Jechać powoli i być przygotowanym do zatrzymania się dla ruchu na autostradzie",
+    "correct": 2
+  },
+  {
+    "id": 4,
+    "question": "Czego wymaga od ciebie prawo gdy słyszysz syrenę pojazdu ratunkowego?",
+    "optiona": "Zwiększyć prędkość i zjechać mu z drogi",
+    "optionb": "Dać znak kierowcy aby cię wyprzedził",
+    "optionc": "Skręcić możliwie najbardziej na prawo i zatrzymać się",
+    "optiond": "Kontynuować jazdę z tą samą prędkością",
+    "correct": 3
+  },
+  {
+    "id": 5,
+    "question": "Jadąc w nocy, kiedy należy przełączyć światła z długich na krótkie?",
+    "optiona": "Gdy pojazd jadący z naprzeciwka zbliży się do nas na odległość 1 km",
+    "optionb": "Gdy pojazd jadący z naprzeciwka zbliży sie do nas na odległość 150 m",
+    "optionc": "Gdy pojazd jadący z naprzeciwka zbliży się do nas na odległość 300 m",
+    "optiond": "Jest to wyłącznie zalecane względami ostrożności a nie jest wymagane przez prawo",
+    "correct": 2
+  },
+  {
+    "id": 6,
+    "question": "Gdy zbliżasz się do znaku \"STOP\" co powinieneś uczynić w myśl prawa?",
+    "optiona": "Zmniejszyć prędkość, zatrąbić i przejechać",
+    "optionb": "Zmniejszyć prędkość i przejechać jeśli droga jest wolna",
+    "optionc": "Zatrzymać się, zatrąbić po czym przejechać skrzyżowanie",
+    "optiond": "Zatrzymać się i jechać wtedy gdy droga jest wolna i bezpieczna",
+    "correct": 4
+  },
+  {
+    "id": 7,
+    "question": "Za wyjątkiem dróg oznaczonych odpowiednimi znakami, dozwolona prędkość w miastach, miasteczkach, wsiach i terenach zabudowanych wynosi:",
+    "optiona": "30 km/godz",
+    "optionb": "50 km/godz",
+    "optionc": "40 km/godz",
+    "optiond": "60 km/godz",
+    "correct": 2
+  },
+  {
+    "id": 8,
+    "question": "Za wyjątkiem dróg oznaczonych odpowiednimi znakami, dozwolona prędkość na drogach poza miastami, wsiami i terenami zabudowanymi wynosi:",
+    "optiona": "50 km/godz",
+    "optionb": "65 km/godz",
+    "optionc": "80 km/godz",
+    "optiond": "90 km/godz",
+    "correct": 3
+  },
+  {
+    "id": 9,
+    "question": "Na drogach o jednym lub więcej pasie ruchu w każdym kierunku nie wolno przejeżdżać linii środkowej w następujących przypadkach:",
+    "optiona": "W odległości 30 m od przejazdu kolejowego",
+    "optionb": "W odległości 30m od mostu lub tunelu",
+    "optionc": "Gdy zbliżamy się do szczytu wzniesienia",
+    "optiond": "W żadnym z powyższych przypadków",
+    "correct": 4
+  },
+  {
+    "id": 10,
+    "question": "Gdy znajdujesz się naprzeciw czerwonego światła regulującego ruch co powinieneś zrobić jesli chcesz pojechać prosto?",
+    "optiona": "Zatrzymać się, ustąpić pierwszeństwa przechodniom po czym ostrożnie przejechać",
+    "optionb": "Zatrzymać się i ruszyć gdy droga jest wolna",
+    "optionc": "Zwolnić prędkość i przejechać gdy droga jest wolna",
+    "optiond": "Zatrzymać się i przejechać dopiero wówczas gdy światło zmieni się na zielone a droga będzie wolna",
+    "correct": 4
+  },
+  {
+    "id": 11,
+    "question": "Jesli jesteś na drodze o ruchu dwukierunkowym jak musisz się ustawić gdy chcesz skręcić w lewo?",
+    "optiona": "Blisko prawej strony jezdni",
+    "optionb": "Blisko lewej strony jezdni",
+    "optionc": "Na prawo i możliwie najbliżej linii środkowej",
+    "optiond": "Nie ważne gdzie , pod warunkiem dania kierunkowskazu",
+    "correct": 3
+  },
+  {
+    "id": 12,
+    "question": "W chwili ukazania się światła zielonego kto posiada prawo pierwszeństwa?",
+    "optiona": "Przechodzień przekracząjacy ulicę w poprzek światła zielonego",
+    "optionb": "Przechodzień przekraczający ulicę wzdłuż światła tzn. wtedy kiedy widzi światło zielone przed sobą",
+    "optionc": "Pojazdy skręcające w lewo",
+    "optiond": "Pojazdy skręcające w prawo",
+    "correct": 2
+  },
+  {
+    "id": 13,
+    "question": "Kiedy w ruchu ulicznym wymagane jest użycie sygnałów ręcznych?",
+    "optiona": "Nagłe zmniejszenie prędkości, zatrzymanie się lub opuszczenie parkingu",
+    "optionb": "Zmiana toru jazdy",
+    "optionc": "Prawy lub lewy skręt",
+    "optiond": "We wszystkich powyższych przypadkach",
+    "correct": 4
+  },
+  {
+    "id": 14,
+    "question": "Co powinieneś zrobić gdy kierowca pojazdu jadącego twoim śladem sygnalizuje zamiar wyprzedzania",
+    "optiona": "Zboczyć ku prawej stronie drogi nie zwiększając prędkości do czasu gdy zostaniesz wyprzedzony",
+    "optionb": "Zwiększyć prędkość zmuszając drugiego kierowcę do tego samego",
+    "optionc": "Dać znak drugiemu kierowcy aby cię nie wyprzedzał",
+    "optiond": "Zboczyć ku lewej stronie drogi aby zablokować pojazd wyprzedzający",
+    "correct": 1
+  },
+  {
+    "id": 15,
+    "question": "W ruchu ulicznym nigdy nie zmieniaj pasa zanim nie zrobisz następujących czynności:",
+    "optiona": "Zwiekszyć prędkość i dać odpowiedni sygnał",
+    "optionb": "Zatrąbić i spojrzeć w lusterko",
+    "optionc": "Spojrzeć w lusterko",
+    "optiond": "Sprawdzić czy manewr jest bezpieczny i dać odpowiedni sygnał",
+    "correct": 4
+  },
+  {
+    "id": 16,
+    "question": "W którym miejscu jezdni masz się ustawić gdy chcesz skręcić w lewo jadąc ulicą jednokierunkową?",
+    "optiona": "Blisko prawej strony jezdni",
+    "optionb": "Blisko linii środkowej oznakowanej na jezdni",
+    "optionc": "Blisko lewej strony jezdni",
+    "optiond": "Bez znaczenia pod warunkiem jeśli dajesz odpowiedni sygnał",
+    "correct": 3
+  },
+  {
+    "id": 17,
+    "question": "Na przystanku tramwajowym pozbawionym wysepki lub strefy bezpieczeństwa gdy tramwaj zatrzymał się aby zabrać lub wysadzić pasażerów co powinieneś zrobić w myśl prawa zanim wyprzedzisz tramwaj?",
+    "optiona": "Stanąć w tyle za tramwajem po czym przejechać",
+    "optionb": "Zatrąbić po czym ostrożnie przejechać",
+    "optionc": "Wyprzedzić lewą stroną gdy droga będzie wolna",
+    "optiond": "Zatrzymać się 2m za ostatnimi tylnymi drzwiami tramwaju otwartymi dla przejścia pasażerów i przejechać dopiero gdy to jest bezpieczne",
+    "correct": 4
+  },
+  {
+    "id": 18,
+    "question": "Co oznacza pulsujące czerwone światło umieszczone na skrzyżowaniu?",
+    "optiona": "Zmniejszyć prędkość i jechać ze zwiększoną ostrożnością",
+    "optionb": "Zmniejszyć prędkość i ustąpić pierwszeństwa pojazdom nadjeżdżającym z prawa lub lewa",
+    "optionc": "Swiatła regulujące ruch są uszkodzone więc przejedź ostrożnie",
+    "optiond": "Zatrzymaj się, jedź dopiero wówczas gdy jest to bezpieczne.",
+    "correct": 4
+  },
+  {
+    "id": 19,
+    "question": "Posiadając uczniowskie prawo jazdy (G1) wolno ci prowadzić pojazdy mechaniczne za wyjątkiem motocykli pod następujacymi warunkami:",
+    "optiona": "Będziesz pobierał naukę wyłącznie w czasie dnia",
+    "optionb": "Pojazd twój jest wyposażony w dodatkowy hamulec",
+    "optionc": "Pojazd, który prowadzisz jest bezpieczny",
+    "optiond": "Towarzyszy ci kierowca który posiada prawo jazdy minimum 4 lata i siedzi obok ciebie",
+    "correct": 4
+  },
+  {
+    "id": 20,
+    "question": "Zółta przerywana linia na jezdni oznacza że możesz:",
+    "optiona": "Wyprzedzić kiedykolwiek zechcesz",
+    "optionb": "Wyprzedzić kiedy droga jest wolna",
+    "optionc": "Nie wolno wyprzedzać",
+    "optiond": "Wolno wyprzedzać wyłącznie w dzień",
+    "correct": 2
+  },
+  {
+    "id": 21,
+    "question": "Czego wymaga od ciebie prawo kiedy robisz zakręt w prawo przy czerwonym świetle",
+    "optiona": "Zmniejszyć prędkość i ostrożnie przejechać",
+    "optionb": "Zatrzymać się po czym wcisnąć między pojazdy",
+    "optionc": "Zatrzymać się, dać kierunkowskaz po czym skręcić w taki sposób aby nie przeszkadzać innym pojazdom i przechodniom",
+    "optiond": "Zmniejszyć prędkość, dać kierunkowskaz i skręcić",
+    "correct": 3
+  },
+  {
+    "id": 22,
+    "question": "Który z następujacych znaków ręcznych oznacza skręt w lewo?",
+    "optiona": "Ramię wyprostowane wysunięte przez okno",
+    "optionb": "Ramię wysunięte opuszczone",
+    "optionc": "Ramię wysunięte wzniesione ku górze",
+    "optiond": "Ruch kulisty ramieniem",
+    "correct": 1
+  },
+  {
+    "id": 23,
+    "question": "Znajdujesz się na prawo od żółtej ciągłej linii oznakowanej na jezdni, na prawo od linii przerywanej. Co oznacza żółta ciągła linia?",
+    "optiona": "Można bezpiecznie wyprzedzać",
+    "optionb": "Wyprzedzać wyłącznie wtedy gdy nie ma ruchu z naprzeciwka",
+    "optionc": "Wyprzedzanie jest niebezpieczne",
+    "optiond": "Możesz wyprzedzać kiedykolwiek zechcesz.",
+    "correct": 3
+  },
+  {
+    "id": 24,
+    "question": "Który pas ruchu powinieneś użyć gdy zamierzasz skręcić w prawo?",
+    "optiona": "Blisko lewej strony jezdni",
+    "optionb": "Blisko prawej strony jezdni",
+    "optionc": "Blisko lini środkowej",
+    "optiond": "Bez znaczenia pod warunkiem że dajesz odpowiedni sygnał",
+    "correct": 2
+  },
+  {
+    "id": 25,
+    "question": "Gdy na skrzyżowaniu zmienia się światło z zielonego na żółte, powinieneś:",
+    "optiona": "Zatrzymać się. Jeśli nie możesz tego zrobić w sposób bezpieczny należy ostrożnie przejechać",
+    "optionb": "Zwiększyć prędkość aby możliwie najszybciej opuścić skrzyżowanie",
+    "optionc": "Przejechać skrzyżowanie bez zatrzymania, względnie bez zmniejszania prędkości",
+    "optiond": "Zatrąbić aby ostrzec pojazdy i przechodniów, że nie będziesz się zatrzymywać",
+    "correct": 1
+  },
+  {
+    "id": 26,
+    "question": "Niezależnie od warunków drogowych powinieneś prowadzić pojazd z szybkością taką abyś mógł zatrzymać go w odległości:",
+    "optiona": "150 m",
+    "optionb": "90 m",
+    "optionc": "W ramach bezpiecznej odległości zatrzymania",
+    "optiond": "60 m",
+    "correct": 3
+  },
+  {
+    "id": 27,
+    "question": "Osoba której prawo jazdy zostało zawieszone może:",
+    "optiona": "Prowadzić pojazd w razie nagłego wypadku",
+    "optionb": "Prowadzić pojazd do pracy i z pracy",
+    "optionc": "Prowadzić pojazd będąc w towarzystwie osoby posiadającej prawo jazdy",
+    "optiond": "Nie prowadzić pojazdu pod żadnym warunkiem",
+    "correct": 4
+  },
+  {
+    "id": 28,
+    "question": "W jaki sposób wrócić na jezdnię gdy koła zjadą na pobocze?",
+    "optiona": "Zatrzymać pojazd",
+    "optionb": "Zmniejszyć prędkość zdejmując nogę z pedału gazu, po czym wrócić na jezdnię gdy jest bezpiecznie",
+    "optionc": "Skręcić ostro w lewo",
+    "optiond": "Hamować i skręcać ostro w lewo",
+    "correct": 2
+  },
+  {
+    "id": 29,
+    "question": "Co powinien zrobić kierowca gdy chce wjechać na główną drogę z drogi dojazdowej? ",
+    "optiona": "Ustąpić pierwszeństwa pojazdom znajdującym sie na głównej drodze",
+    "optionb": "Zatrąbić i ostrożnie wjechać na drogę",
+    "optionc": "Wjechać lub przejechać drogę możliwie najszybciej",
+    "optiond": "Dać sygnał ręką i skorzystać z prawa pierwszeństwa",
+    "correct": 1
+  },
+  {
+    "id": 30,
+    "question": "Gdy pęknie opona powinieneś:",
+    "optiona": "Zdjąć nogę z pedalu gazu, i skoncentrować się na sterowaniu",
+    "optionb": "Przyspieszyć i skręcić w lewo",
+    "optionc": "Przyspieszyć i skręcić w prawo",
+    "optiond": "Zdjąć nogę z pedalu gazu i ostro nacisnąć hamulec",
+    "correct": 1
+  },
+  {
+    "id": 31,
+    "question": "W jakiej odległości od innych pojazdów musi się znajdować twój pojazd na drodze?",
+    "optiona": "W odległości pozwalającej na zatrzymanie pojazdu gdy to konieczne z uwzględnieniem prędkości innych pojazdów jak też z uwzględnieniem warunków drogowych",
+    "optionb": "Możliwie najbliżej tyłu przedniego pojazdu aby udzielić więcej miejsca pojazdom za nami",
+    "optionc": "Wyprzedzać zawsze pojazdy jadące przed tobą aby nie narażać się na niebezpieczeństwo jazdy w tyle za innym pojazdem",
+    "optiond": "Bez znaczenia, jazda zbyt blisko nie jest karalna",
+    "correct": 1
+  },
+  {
+    "id": 32,
+    "question": "W jakich przypadkach jazda zbyt powolna jest karalna?",
+    "optiona": "Zbyt powolna jazda nie jest karalna",
+    "optionb": "Jadąc pasem wyprzedzania",
+    "optionc": "Gdy przeszkadzasz lub blokujesz normalny ruch pojazdów",
+    "optiond": "Jadąc drogą jednokierunkową",
+    "correct": 3
+  },
+  {
+    "id": 33,
+    "question": "Gdy dwa pojazdy zbliżają się do skrzyżowania pozbawionego znaków drogowych mniej więcej w tej samej chwili, prawo pierwszeństwa posiada...",
+    "optiona": "Nadjeżdzający z lewej strony",
+    "optionb": "Nadjeżdzający z prawej strony",
+    "optionc": "Zaden z nich",
+    "optiond": "Pojazd jadący szybciej",
+    "correct": 2
+  },
+  {
+    "id": 34,
+    "question": "Kiedy wolno wyprzedzać prawą stroną?",
+    "optiona": "Na każdej ulicy lub drodze",
+    "optionb": "Zawsze gdy jest możliwość zjazdu na pobocze",
+    "optionc": "Nigdy nie wolno",
+    "optiond": "Dopuszczalne gdy ulica lub droga którą jedziesz posiada dwa lub więcej pasy w kierunku w którym jedziesz",
+    "correct": 4
+  },
+  {
+    "id": 35,
+    "question": "Kiedy wymagane jest włączenie świateł pojazdu?",
+    "optiona": "Pomiędzy zachodem i wschodem słońca",
+    "optionb": "Między zmierzchem i świtem, oraz o każdej porze gdy widoczność jest mniejsza, gdy nie można dokładnie widziec w odległości 150m",
+    "optionc": "Pól godziny przed zachodem słońca oraz pól godziny po wschodzie słońca i o każdej porze gdy widoczność jest ograniczona do 150m",
+    "optiond": "Nie ma wyznaczonego czasu",
+    "correct": 3
+  },
+  {
+    "id": 36,
+    "question": "W jakiej odległości jadąc za drugim pojazdem należy obniżyć światła? (przełączyć na krótkie)",
+    "optiona": "W odległości 30m",
+    "optionb": "W odległości 60m",
+    "optionc": "W odległości 120m",
+    "optiond": "Zasada ta obowiązuje tylko wówczas gdy drugi pojazd zbliża się z naprzeciwka",
+    "correct": 2
+  },
+  {
+    "id": 37,
+    "question": "Czego wymaga prawo gdy zbliżasz się do znaku \"YIELD\" (Ustąp Pierwszeństwa)",
+    "optiona": "Zmniejszyć prędkość, zatrzymać się jeśli to konieczne i ustąpić w myśl prawa pierwszeństwa",
+    "optionb": "Zatrzymać się po czym wolno włączyć się do ruchu",
+    "optionc": "Zatrzymać się po czym szybko włączyć się do ruchu",
+    "optiond": "Zwiększyć prędkość, po czym szybko włączyć się do ruchu",
+    "correct": 1
+  },
+  {
+    "id": 38,
+    "question": "Gdy drugi pojazd zatrzymał się przed oznakowanym przejsciem dla pieszych w celu przepuszczenia przechodnia, powinieneś: .",
+    "optiona": "Wyprzedzić pojazd przepuszczający przechodnia prawą stroną",
+    "optionb": "Nie wyprzedzać pojazdu który przepuszcza przechodnia",
+    "optionc": "Wyprzedzić pojazd przepuszczający lewą stroną",
+    "optiond": "Zatrąbić aby pojazd przepuszczający przechodnia ruszył w drogę",
+    "correct": 2
+  },
+  {
+    "id": 39,
+    "question": "Gdy prowadzisz pojazd z włączonymi światłami użyj światła krótkie gdy:",
+    "optiona": "Zbliżasz się do skrzyżowania",
+    "optionb": "Pojazd nadjeżdzający z naprzeciwka obniża swoje światła",
+    "optionc": "Jesteś oślepiony swiatłami pojazdu jadącego z naprzeciwka",
+    "optiond": "Zbliżasz się lub jedziesz w ślad za innym pojazdem",
+    "correct": 4
+  },
+  {
+    "id": 40,
+    "question": "Jadąc pojazdem nie wolno wieźć w przyczepie mieszkalnej lub łodziowej",
+    "optiona": "Broni palnej",
+    "optionb": "Materiałów zapalnych",
+    "optionc": "Osób",
+    "optiond": "Zwierząt domowych",
+    "correct": 3
+  },
+  {
+    "id": 41,
+    "question": "Gdy na skrzyżowaniu włączyło się czerwone światło i jednocześnie zielona strzałka oznacza to....",
+    "optiona": "Zanim skręcisz w kierunku wskazanym przez strzałkę poczekaj na ukazanie się światła zielonego",
+    "optionb": "Jedź ostrożnie w kierunku wskazanym przez strzałkę i uważaj na inne pojazdy oraz przechodniów",
+    "optionc": "Zatrzymaj się po czym jedź dalej",
+    "optiond": "Zielona strzałka jest znakiem przeznaczonym dla przechodniów",
+    "correct": 2
+  },
+  {
+    "id": 42,
+    "question": "Jazda z maksymalnie dozwoloną prędkością jest bardziej niebezpieczna w nocy niż w ciągu dnia gdyż:",
+    "optiona": "W nocy widoczność jest ograniczona",
+    "optionb": "Twoja reakcja jest w nocy zmniejszona",
+    "optionc": "Niektórzy kierowcy używają światła postojowe wbrew prawu",
+    "optiond": "Jezdnie mogą być w nocy śliskie",
+    "correct": 1
+  },
+  {
+    "id": 43,
+    "question": "Wjeżdżając w zakręt wskazane jest:",
+    "optiona": "Jechać środkiem drogi",
+    "optionb": "Wjechać z tą samą prędkością i zahamować gdy jest to konieczne",
+    "optionc": "Wjeżdżając należy zwolnić tylko wówczas gdy droga jest śliska",
+    "optiond": "Wjechać w zakręt powoli i przyspieszyć dopiero po wyjsciu z zakrętu",
+    "correct": 4
+  },
+  {
+    "id": 44,
+    "question": "W razie wypadku należy powiadomić policję kiedy były zranione osoby lub szkody materialne wynoszą ponad:",
+    "optiona": "100",
+    "optionb": "500",
+    "optionc": "200",
+    "optiond": "1500",
+    "correct": 4
+  },
+  {
+    "id": 45,
+    "question": "Na skrzyżowaniu o dozwolonym skręcie w prawo i w lewo zielone pulsujące światło oznacza...",
+    "optiona": "Wolno skręcić w lewo gdy droga jest wolna",
+    "optionb": "Wolno skręcić w prawo gdy droga jest wolna",
+    "optionc": "Wolno jechać prosto gdy droga jest wolna",
+    "optiond": "Wolno jechać w każdym z wymienionych kierunków",
+    "correct": 4
+  },
+  {
+    "id": 46,
+    "question": "Jadąc za innym pojazdem należy utrzymać bezpieczną odległość. Przy prędkości 50 km/godz odległość powinna wynosić co najmniej:",
+    "optiona": "Dwie długości samochodu od pojazdu jadącego przed nami",
+    "optionb": "Trzy długości samochodu od pojazdu jadącego przed nami",
+    "optionc": "Cztery długości samochodu od pojazdu jadącego przed nami",
+    "optiond": "Pięć długości samochodu od pojazdu jadącego przed nami",
+    "correct": 2
+  },
+  {
+    "id": 47,
+    "question": "Gdy światła kontrolne zmieniają się w chwili gdy na przejsciu znajduje sie przechodzień kto posiada prawo pierwszeństwa?",
+    "optiona": "Kierowca który skręca",
+    "optionb": "Przechodzień",
+    "optionc": "Kierowca nadjeżdżający z prawej strony",
+    "optiond": "Kierowca nadjeżdżający z lewej strony",
+    "correct": 2
+  },
+  {
+    "id": 48,
+    "question": "Jedziesz mokrą lub oblodzoną drogą a musisz szybko zatrzymać się. Najlepszym sposobem jest:",
+    "optiona": "Pompować hamulec do całkowitego zatrzymania się",
+    "optionb": "Ostro zahamować ale starać się uniknąć zablokowania kół",
+    "optionc": "Zdjąć nogę z hamulca i pozwolić aby samochód sam sie zatrzymał",
+    "optiond": "Hamować w sposób tak jak się to zwykle czyni",
+    "correct": 1
+  },
+  {
+    "id": 49,
+    "question": "Który z następujacych znaków oznacza zmniejszenie prędkości lub zatrzymanie się",
+    "optiona": "Ramię wyprostowane przez okno",
+    "optionb": "Ramię wysunięte i opuszczone ku dołowi",
+    "optionc": "Ramię wysunięte i wzniesione do góry",
+    "optiond": "Wykonanie ręką ruchu kulistego",
+    "correct": 2
+  },
+  {
+    "id": 50,
+    "question": "Zanim włączysz się do ruchu powinieneś:",
+    "optiona": "Zatrąbić i z wolna ruszyć",
+    "optionb": "Sprawdzić ruch, włączyć kierunkowskaz i szybko oddalic się od krawężnika",
+    "optionc": "Sprawdzić ruch, włączyć kierunkowskaz i oddalić się od krawężnika",
+    "optiond": "Włączyć kierunkowskaz i oddalić się od krawężnika",
+    "correct": 3
+  },
+  {
+    "id": 51,
+    "question": "Niebieskie pulsujące światło na pojeździe oznacza:",
+    "optiona": "Pojazd przewożący materiały wybuchowe",
+    "optionb": "Pojazd usuwający śnieg",
+    "optionc": "Pogotowie ratunkowe",
+    "optiond": "Policja",
+    "correct": 2
+  },
+  {
+    "id": 52,
+    "question": "Jadąc wolniej od innych pojazdów powinieneś:",
+    "optiona": "Dać znak drugim kierowcom żeby cię wyprzedzili",
+    "optionb": "Trzymać się blisko prawej strony drogi",
+    "optionc": "Trzymać się blisko lewej strony drogi",
+    "optiond": "Jechać środkiem drogi",
+    "correct": 2
+  },
+  {
+    "id": 53,
+    "question": "Gdy brałeś udzial w wypadku który spowodował zranienie kogoś powinieneś:",
+    "optiona": "Powiadomić natychmiast najbliższy posterunek policji",
+    "optionb": "Powiadomić w ciągu 48 godzin najbliższy posterunek policji",
+    "optionc": "Zawiadomić wyłącznie swoją firmę ubezpieczeniową",
+    "optiond": "Zawiadomić o wypadku wyłącznie Departament Transportu",
+    "correct": 1
+  },
+  {
+    "id": 54,
+    "question": "Dobry kierowca jadąc w silnej mgle używa:",
+    "optiona": "Swiateł krótkich",
+    "optionb": "Swiateł długich",
+    "optionc": "Swiateł postojowych",
+    "optiond": "Jedzie bez zapalania świateł",
+    "correct": 1
+  },
+  {
+    "id": 55,
+    "question": "Większość poślizgów pojazdów jest spowodowana:",
+    "optiona": "Za małą ilością powietrza w oponach",
+    "optionb": "Sniegiem lub lodem pokrywającym nawierzchnię drogi",
+    "optionc": "Zbyt szybką jazdą",
+    "optiond": "Zbyt dużą iloscią powietrza w oponach",
+    "correct": 3
+  },
+  {
+    "id": 56,
+    "question": "Jadąc nocą jesteś oślepiony światłami drugiego pojazdu. Co powinieneś zrobić?",
+    "optiona": "Włączyć długie światła",
+    "optionb": "Patrzeć w kierunku lini środkowej",
+    "optionc": "Patrzeć z lekka ku prawej stronie",
+    "optiond": "Wpatrywać się w tylne światła pojazdu przed toba",
+    "correct": 3
+  },
+  {
+    "id": 57,
+    "question": "Co zrobić żeby zatrzymać i zaparkować pojazd na drodze poza miastem i terenem zabudowanym?",
+    "optiona": "Zatrzymać się na drodze którą jedziesz i włączyć lewy kierunkowskaz",
+    "optionb": "Trzymać noge na hamulcu aby zapalić światło stopu",
+    "optionc": "Włączyć światła postojowe",
+    "optiond": "Zjechać z drogi na pobocze",
+    "correct": 4
+  },
+  {
+    "id": 58,
+    "question": "Kiedy powinieneś jechać z maksymalną prędkością?",
+    "optiona": "Tylko w ciągu dnia",
+    "optionb": "Kiedykolwiek",
+    "optionc": "Gdy warunki ruchu na drodze na to zezwalają",
+    "optiond": "Na szosach o ruchu jednokierunkowym",
+    "correct": 3
+  },
+  {
+    "id": 59,
+    "question": "Jak blisko hydrantu pożarowego można parkować?",
+    "optiona": "1.5 metra",
+    "optionb": "3 metry",
+    "optionc": "5 metrów",
+    "optiond": "8 metrów",
+    "correct": 2
+  },
+  {
+    "id": 60,
+    "question": "W ciągu jakiego okresu czasu powinieneś powiadomić Departament Transportu o zmianie adresu?",
+    "optiona": "6 dni",
+    "optionb": "15 dni",
+    "optionc": "30 dni ",
+    "optiond": "Kiedykolwiek przed terminem upływu ważności prawa jazdy",
+    "correct": 1
+  },
+  {
+    "id": 61,
+    "question": "Jeśli brałeś udział w wypadku nakazującym powiadomienie policji należy tego dokonać w ciągu:",
+    "optiona": "Natychmiast",
+    "optionb": "W ciągu 24 godzin",
+    "optionc": "W ciągu 48 godzin",
+    "optiond": "W ciągu 72 godzin",
+    "correct": 1
+  },
+  {
+    "id": 62,
+    "question": "Kierowca, który przygotowuje się do skrętu w lewo po ukazaniu się zielonego światła powinien:",
+    "optiona": "Skręcić szybko w lewo zanim ruszą pojazdy z naprzeciwka",
+    "optionb": "Włączyć kierunkowskaz i wolno wykonać skręt",
+    "optionc": "Włączyć kierunkowskaz i skręcić gdy droga jest wolna",
+    "optiond": "Rozpocząć skręt z prawego pasa",
+    "correct": 3
+  },
+  {
+    "id": 63,
+    "question": "Jakie kary czekają kierowcę gdy prowadzi pojazd w okresie zawieszonego prawa jazdy?",
+    "optiona": "$ 500 lub 6 miesięcy więzienia lub obie kary włącznie",
+    "optionb": "Konfiskata pojazdu na okres 3 miesięcy",
+    "optionc": "Dodatkowe zawieszenie prawa jazdy na okres dalszych 6 miesięcy",
+    "optiond": "Którakolwiek z powyższych lub wszystkie włącznie",
+    "correct": 4
+  },
+  {
+    "id": 64,
+    "question": "W jakich warunkach manewr nawracania jest karalny i niebezpieczny?",
+    "optiona": "Na zakręcie lub na wzgórzu, gdy pojazd jest widoczny z odległości mniejszej niż 150 metrów",
+    "optionb": "Na przejeździe kolejowym lub w odległości 30 metrów od przejazdu",
+    "optionc": "W odległości mniejszej niż 150m. od tunelu lub mostu gdy widoczność kierowcy jest zmniejszona",
+    "optiond": "We wszystkich powyższych przypadkach",
+    "correct": 4
+  },
+  {
+    "id": 65,
+    "question": "Zjeżdżając z góry dobrze jest:",
+    "optiona": "Włączyć niższy bieg i powoli hamować silnikiem",
+    "optionb": "Wcisnąć sprzęgło i zjeżdżać na wolnym biegu",
+    "optionc": "Wyłączyć zapłon",
+    "optiond": "Włączyć bieg neutralny (tak zwany \"luz\")",
+    "correct": 1
+  },
+  {
+    "id": 66,
+    "question": "Gdy sygnały elektryczne lub mechaniczne względnie kolejarz ostrzega przed zbliżającym się pociągiem powinieneś:",
+    "optiona": "Zatrzymać się w odległości co najmniej 5 metrów od torów kolejowych",
+    "optionb": "Zwiększyć prędkość i przejechać przejazd kolejowy",
+    "optionc": "Zatrzymać się w odległości co najmniej 1.5 metra od przejazdu kolejowego",
+    "optiond": "Zmniejszyć szybkość i ostrożnie przejechać",
+    "correct": 1
+  },
+  {
+    "id": 67,
+    "question": "Prawo jazdy może byc unieważnione z następujących powodów:",
+    "optiona": "Nie wstawienie się na ponowny egzamin",
+    "optionb": "Posiadanie fałszywego prawa jazdy",
+    "optionc": "Nie zdanie ponownego egzaminu",
+    "optiond": "Jedno lub wszystkie z powyższych",
+    "correct": 4
+  },
+  {
+    "id": 68,
+    "question": "Policjant ma prawo zażądać okazania następujacych dokumentów:",
+    "optiona": "Ubezpieczenie pojazdu",
+    "optionb": "Dowód rejestracyjny",
+    "optionc": "Prawo jazdy",
+    "optiond": "Jedno lub wszystkie z powyższych",
+    "correct": 4
+  },
+  {
+    "id": 69,
+    "question": "Kiedy wolno używać światła postojowe?",
+    "optiona": "Jadąc dobrze oświetloną drogą",
+    "optionb": "Jadąc w gęstej mgle",
+    "optionc": "Kiedykolwiek",
+    "optiond": "Wyłącznie w czasie postoju",
+    "correct": 4
+  },
+  {
+    "id": 70,
+    "question": "Które z następujacych okoliczności spowodują najwiekszą śliskość jezdni?",
+    "optiona": "Po kilkugodzinnym deszczu",
+    "optionb": "Kilka chwil po rozpoczęciu padania lub po lekkim deszczu",
+    "optionc": "Gdy linie środkowe zostały świeżo pomalowane",
+    "optiond": "Gdy droga została dopiero zbudowana",
+    "correct": 2
+  },
+  {
+    "id": 71,
+    "question": "Kiedy wolno pożyczyć drugiej osobie swoje prawo jazdy?",
+    "optiona": "Nigdy",
+    "optionb": "Drugiej osobie która uczy się jeździć",
+    "optionc": "Wyłącznie jako dowodu tożsamości",
+    "optiond": "W wypadku niebezpieczeństwa",
+    "correct": 1
+  },
+  {
+    "id": 72,
+    "question": "Aby uchronić się przed skutkami poślizgu pojazdu należy;",
+    "optiona": "Skręcić kierownicę w prawo a następnie w lewo",
+    "optionb": "Zacząć natychmiast hamować",
+    "optionc": "Skręcić kierownicę w kierunku poślizgu",
+    "optiond": "Trzymać kierownicę w mocnym uścisku i nie skręcać",
+    "correct": 3
+  },
+  {
+    "id": 73,
+    "question": "Zanim opuścisz pojazd zaparkowany pod górę z krawężnikiem powinieneś:",
+    "optiona": "Skręcić przednie koła ku krawężnikowi i zaciągnąć hamulec ręczny",
+    "optionb": "Skręcić przednie koła od krawężnika i zaciągnąć hamulec ręczny",
+    "optionc": "Ustawić przednie koła równolegle do krawężnika i zaciągnąć hamulec ręczny",
+    "optiond": "Wystarczy zaciągnąć hamulec ręczny",
+    "correct": 2
+  },
+  {
+    "id": 74,
+    "question": "Zanim opuścisz pojazd zaparkowany z góry przy drodze posiadającej lub nie posiadającej krawężnika lub pod górę bez krawężnika powinieneś:",
+    "optiona": "Skręcić koła ku prawej stronie i zaciągnąć hamulec ręczny",
+    "optionb": "Skręcić koła ku lewej stronie i zaciągnąć hamulec ręczny",
+    "optionc": "Ustawić przednie koła równolegle do krawędzi drogi i zaciągnąć hamulec ręczny",
+    "optiond": "Wystarczy zaciągnąć hamulec ręczny",
+    "correct": 1
+  },
+  {
+    "id": 75,
+    "question": "Gdy włączone jest czerwone światło na skrzyżowaniu a jednocześnie policjant wskazuje aby jechać prosto należy:",
+    "optiona": "Zaczekać do zmiany światła na zielone",
+    "optionb": "Wykonać polecenie policjanta i jechać prosto",
+    "optionc": "Zwrócić policjantowi uwagę na czerwone światło",
+    "optiond": "Zatrzymać się i upewnić czy dobrze zrozumiałeś polecenie",
+    "correct": 2
+  },
+  {
+    "id": 76,
+    "question": "Jeśli przekroczyłeś dozwoloną prędkość o 50 km/godz sędzia będzie miał prawo skazać cię na jedną z następujących kar:",
+    "optiona": "Zawieszenie prawa jazdy na 6 miesięcy",
+    "optionb": "Zawieszenie prawa jazdy na 30 dni",
+    "optionc": "Zatrzymanie prawa jazdy na okres 6 miesięcy",
+    "optiond": "Więzienie na okres 6 miesięcy",
+    "correct": 2
+  },
+  {
+    "id": 77,
+    "question": "Jeśli zbliżasz się do skrzyżowania pozbawionego świateł kontrolnych oraz policjanta, widzisz przechodnia na przejściu dla pieszych co należy zrobić?",
+    "optiona": "Zwiększyć prędkość i skorzystać z prawa pierwszeństwa",
+    "optionb": "Zmniejszyć prędkość i ostrożnie przejechać",
+    "optionc": "Zatrąbić aby ostrzec przechodnia",
+    "optiond": "Ustąpić pierwszeństwa przechodniowi",
+    "correct": 4
+  },
+  {
+    "id": 78,
+    "question": "Gdy zbiżasz się do skrzyżowania i widzisz że droga po drugiej stronie skrzyżowania jest zablokowana pojazdami powinieneś:",
+    "optiona": "Trzymać się możliwie najbliżej pojazdu przed tobą",
+    "optionb": "Wjechać powoli na skrzyżowanie czekając aż pojazdy ruszą",
+    "optionc": "Zatrzymać się przed skrzyżowaniem i ruszyć gdy droga jest wolna",
+    "optiond": "Zatrąbić aby zachęcić pojazdy z przodu do dalszej jazdy",
+    "correct": 3
+  },
+  {
+    "id": 79,
+    "question": "Dlaczego należy zachować ostrożność w pobliżu jadącego motocykla?",
+    "optiona": "Ponieważ motocykl może nie posiadać ubezpieczenia",
+    "optionb": "Ponieważ jest to mniejszy pojazd",
+    "optionc": "Ponieważ motocykle nie dzielą się drogą z innymi pojazdami",
+    "optiond": "Ponieważ ze względu na wielkość są mniej widoczne i jest trkidno określić z jaką prędkością się poruszają",
+    "correct": 4
+  },
+  {
+    "id": 80,
+    "question": "Gdy zbliżasz się do jadącego motocykla lub roweru na twoim pasie na drodze wielopasmowej najbezpieczniej jest:",
+    "optiona": "Użyć klakson aby ostrzec motocyklistę lub rowerzystę by usunął się z drogi",
+    "optionb": "Zwiększyć prędkość i wyprzedzić",
+    "optionc": "Zmienić jak najszybciej pas",
+    "optiond": "Włączyć sygnał, sprawdzić w lusterkach i przez ramię (martwy punkt) czy pas obok jest bezpieczny do wyprzedzenia, jeżeli tak zmienić pas i wyprzedzić motocyklistę lub rowerzystę",
+    "correct": 4
+  },
+  {
+    "id": 81,
+    "question": "Uszkodzona na drodze ciężarówka powinna być oznaczona reflektorami lub świecami ostrzegawczymi z przodu i z tyłu pojazdu w odległości:",
+    "optiona": "50 stóp (15 metrów)",
+    "optionb": "100 stóp (30 metrów)",
+    "optionc": "200 stóp ( 60 metrów)",
+    "optiond": "300 stóp ( 90 metrów)",
+    "correct": 2
+  },
+  {
+    "id": 82,
+    "question": "Kierowca może być wezwany na powtórny egzamin :",
+    "optiona": "Gdy uzyskał 9 punktów karnych",
+    "optionb": "Gdy uzyskał 3 punkty karne",
+    "optionc": "Gdy uzyskał 6 punktów karnych",
+    "optiond": "Gdy uzyskał 15 punktów karnych",
+    "correct": 1
+  },
+  {
+    "id": 83,
+    "question": "Ministerstwo Transportu może zawiesić prawo jazdy przy 9 punktach karnych:",
+    "optiona": "Jeżeli kierowca nie może lub nie potrafi udowodnić że jego prawo jazdy zostało niesłusznie zawieszone",
+    "optionb": "Jeżeli kierowca nie posiada przynajmniej 5-letniego doświadczenia",
+    "optionc": "Jeżeli prawo jazdy nie jest potrzebne w celach służbowych",
+    "optiond": "Ministerstwo nie ma prawa zawiesić prawa jazdy przed osiągnięciem 15 punktów karnych",
+    "correct": 1
+  },
+  {
+    "id": 84,
+    "question": "Jeżeli kierowca uzyskał 15 lub więcej punktów karnych jego prawo jazdy zostaje zawieszone:",
+    "optiona": "Automatycznie na 30 dni",
+    "optionb": "Bez zawiadomienia Ministerstwa",
+    "optionc": "Tylko wtedy gdy prawo jazdy nie zostało użyte w celach służbowych",
+    "optiond": "Na 3 miesiące",
+    "correct": 1
+  },
+  {
+    "id": 85,
+    "question": "Sprzedając samochód do obowiązków sprzedającego należy:",
+    "optiona": "Iść z nabywcą do biura rejestracyjnego aby przekazać prawo własności",
+    "optionb": "Zawiadomić Ministerstwo o zmianie własności w ciągu 6 dni od daty sprzedaży",
+    "optionc": "Jeżeli sprzedaje się samochód bez dowodu rejestracyjnego, należy zwrócić tablice rejestracyjne i uzyskać dowód rejestracyjny na nazwisko nabywcy",
+    "optiond": "Spełnić wszystkie wyżej wymienione warunki",
+    "correct": 2
+  },
+  {
+    "id": 86,
+    "question": "Przy jakiej ilości punktów karnych kierowca otrzyma list powiadamiający go o tym",
+    "optiona": "Po osiągnięciu 15 punktów karnych",
+    "optionb": "Po osiągnięciu 6 punktów karnych",
+    "optionc": "Po pierwszym przekroczeniu przepisów",
+    "optiond": "Po osiągnięciu 9 punktów",
+    "correct": 2
+  },
+  {
+    "id": 87,
+    "question": "Gdy prawo jazdy zostało zwróconel5o zawieszeniu za osiągniecie 15 punktów karnych ilość punktów w rejestrze",
+    "optiona": "Zostaje całkowicie skreślona",
+    "optionb": "Pozostaje ta sama",
+    "optionc": "Zostaje zredukowana do 7 punktów",
+    "optiond": "Zostaje zredukowana do 9 punktów",
+    "correct": 3
+  },
+  {
+    "id": 88,
+    "question": "Gdy autobus szkolny zatrzyma się na drodze nie posiadającej pasa rozdzielającego i uruchomi czerwone światła pulsujące oraz wysunie znak \"STOP\" powinieneś:",
+    "optiona": "Zatrąbić i pojechać dalej",
+    "optionb": "Zatrzymać się do czasu gdy autobus ruszy lub zgasi pulsujące światła",
+    "optionc": "Przepuścić nadjeżdżający z naprzeciwka pojazd",
+    "optiond": "Zmniejszyć prędkość i ostrożnie wyprzedzić autobus",
+    "correct": 2
+  },
+  {
+    "id": 89,
+    "question": "Jeśli jesteś kierowcą kategorii \"G1\" towarzyszący ci kierowca powinien:",
+    "optiona": "Być jedyną osobą siedzącą z tobą z przodu w czasie jazdy",
+    "optionb": "Być właścicielem samochodu który prowadzisz",
+    "optionc": "Być przyjacielem lub kimś z rodziny",
+    "optiond": "Ukończył \"Defensywny Kurs Nauki Jazdy\"",
+    "correct": 1
+  },
+  {
+    "id": 90,
+    "question": "Jeżeli jesteś kierowcą kategorii \"G1\" maksymalna zawartość alokoholu we krwi u towarzyszącego ci kierowcy powinna być mniejsza niż:",
+    "optiona": "0.5 procenta",
+    "optionb": "0.1 procenta",
+    "optionc": "0.05 procenta",
+    "optiond": "0.08 procenta",
+    "correct": 3
+  },
+  {
+    "id": 91,
+    "question": "Jeżeli jesteś kierowcą kategorii \"G1\" lub \"G2\" twoja maksymalna zawartość alkoholu we krwi może być:",
+    "optiona": "0.5 procenta",
+    "optionb": "0.0 procenta",
+    "optionc": "0.05 procenta",
+    "optiond": "0.08 procenta",
+    "correct": 2
+  },
+  {
+    "id": 92,
+    "question": "Jeżeli jesteś kierowcą kategorii \"G1\" możesz jeźdźić po drogach posiadających dozwoloną prędkość powyżej 80 km/godz (jak Queen Elizabeth Way, Don Valley Parkway, Gardiner Expresway oraz autostrady z numerami 400) tylko wtedy gdy:",
+    "optiona": "Towarzyszy ci kierowca posiadający pełne prawo jazdy i co najmniej 4 lata praktyki",
+    "optionb": "Przejeżdżasz tylko krótki dystans aby nabrać pewności na drodze",
+    "optionc": "Ufasz że możesz bezpiecznie wjechać i zjechać na drogę szybkiego ruchu",
+    "optiond": "Towarzyszy ci licencjonowany instruktor nauki jazdy",
+    "correct": 4
+  },
+  {
+    "id": 93,
+    "question": "Najlepszą metodą uniknięcia wypadku jest:",
+    "optiona": "Upewnij się że masz wystarczająco miejsca z przodu, tyłu i po bokach twojego pojazdu a także dostosuj prędkość pojazdu do warunków jazdy",
+    "optionb": "Prowadź pojazd z ciągle zapalonymi światłami",
+    "optionc": "Nie prowadź pojazdu gdy jest zbyt duży ruch",
+    "optiond": "Nie prowadź pojazdu gdy pada deszcz lub śnieg",
+    "correct": 1
+  },
+  {
+    "id": 94,
+    "question": ". Gdy zbiżasz się do przystanku tramwajowego z wydzieloną wysepką dla pasażerów powinieneś:",
+    "optiona": "Zatrąbić by ostrzec pasażerów i jechać dalej",
+    "optionb": "Wyminąć z prawej strony chyba że jedziesz jednokierunkową drogą; jedź dalej uważnie i bądź przygotowany w razie nieoczekiwanej sytuacji (gdy pasażer wytskoczy na ulicę)",
+    "optionc": "Przyspiesz aby szybko przejechac i udostępnić drogę dla pasażerów",
+    "optiond": "Nie musisz zwalniać ze względu na obecność strefy bezpieczeństwa",
+    "correct": 2
+  },
+  {
+    "id": 95,
+    "question": "Gdy zamierzasz zawrócić, pierwszą rzeczą którą powinieneś wziąć pod uwagę to sprawdzić:",
+    "optiona": "Przepisy drogowe",
+    "optionb": "Obecność drzew, hydrantów przeciwpożarowych oraz słupów blisko krawężnika",
+    "optionc": "Promień skrętu twojego samochodu",
+    "optiond": "Wysokość krawężnika",
+    "correct": 1
+  },
+  {
+    "id": 96,
+    "question": "Pomijając że próbujesz wyminąć inny samochód lub gdy próbujesz skręcić w lewo powinieneś:",
+    "optiona": "Jechać środkiem drogi",
+    "optionb": "Zawsze jechać lewą stroną drogi",
+    "optionc": "Zawsze jechać prawą stroną drogi",
+    "optiond": "Nie musisz niczego przestrzegać",
+    "correct": 3
+  },
+  {
+    "id": 97,
+    "question": "Gdy posiadasz kategorię \"G1\" lub \"G2\" twoje prawo jazdy zostanie zatrzymane jeżeli otrzymasz",
+    "optiona": "Dwa lub więcej punkty karne",
+    "optionb": "Sześć punktów karnych",
+    "optionc": "Dziewięć lub więcej punktów karnych w ciągu okresu dwóch lat",
+    "optiond": "Dziesięć lub więcej punktów karnych",
+    "correct": 3
+  },
+  {
+    "id": 98,
+    "question": "Gdy posiadasz kategorię \"G1\" lub \"G2\" i uzyskasz maksymalną ilość punktów karnych, na jak długo twoje prawo jazdy zostanie zawieszone?",
+    "optiona": "30 dni",
+    "optionb": "60 dni",
+    "optionc": "90 dni",
+    "optiond": "120 dni",
+    "correct": 2
+  },
+  {
+    "id": 99,
+    "question": "Niektóre wykroczenia jak na przykład niebezpieczna jazda, jazda 50 km/godz i więcej powyżej dopuszczalnej prędkości może spowodować",
+    "optiona": "Tylko utratę punktów",
+    "optionb": "Tylko kara pieniężna (mandat)",
+    "optionc": "Punkty karne, mandat oraz zatrzymanie prawa jazdy",
+    "optiond": "Tylko zatrzymanie prawa jazdy",
+    "correct": 3
+  },
+  {
+    "id": 100,
+    "question": "Jeżeli nie zgodzisz się na badanie oddechu lub pobranie próbki krwi gdy policja zarząda lub gdy badanie wykaże zawartość alkoholu powyżej limitu twoje prawo jazdy zostanie zatrzymane natychmiast na okres:",
+    "optiona": "90 dni",
+    "optionb": "120 dni",
+    "optionc": "150 dni",
+    "optiond": "180 dni",
+    "correct": 1
+  },
+  {
+    "id": 101,
+    "question": "Gdy zostaniesz skazany za naruszenie prawa, twoje prawo jazdy zostanie zatrzymane na minimum ",
+    "optiona": "1 rok",
+    "optionb": "Dwa lata",
+    "optionc": "Trzy lata",
+    "optiond": "Cztery lata",
+    "correct": 1
+  },
+  {
+    "id": 102,
+    "question": "Jeżeli masz kategorię \"G1\" lub \"G2\" i zostaniesz zatrzymany za kierowanie pojazdu pod wpływem alkoholu:",
+    "optiona": "Twoje prawo jazdy zostanie unieważnione",
+    "optionb": "Twoje prawo jazdy zostanie zatrzymane na 30 dni za naruszenie warunków uprawniających do otrzymania prawa jazdy i możesz być ukarany za naruszenie prawa",
+    "optionc": "Dostaniesz upomnienie z Ministerstwa Transportu",
+    "optiond": "Będziesz wezwany na rozmowę",
+    "correct": 2
+  },
+  {
+    "id": 103,
+    "question": "Gdy stoisz na skrzyżowaniu i próbujesz skręcić w lewo a światło zmienia się z zielonego na czerwone powinieneś:",
+    "optiona": "Zostać gdzie jesteś bo światło jest teraz czerwone",
+    "optionb": "Wykonaj skręt gdy jest to bezpieczne",
+    "optionc": "Wycofaj się ze skrzyżowania",
+    "optiond": "Przejedź skrzyżowanie prosto bo jest to bezpieczniejsze niż skręcić w lewo w tym momencie",
+    "correct": 2
+  },
+  {
+    "id": 104,
+    "question": "Jeżeli zbliżasz się do skrzyżowania gdzie światła nie działają i nikt nie kieruje ruchem powinieneś:",
+    "optiona": "Spojrzeć w lewo, prawo i znowu w lewo zanim przejedziesz skrzyżowanie",
+    "optionb": "Zatrzymaj się i przejedź skrzyżowanie",
+    "optionc": "Zachowaj się jakbyś był na skrzyżowaniu gdzie wszystkie drogi mają\"stop\" (all way stop)",
+    "optiond": "Zatrzymaj się tylko wtedy gdy nadjadą inne samochody",
+    "correct": 3
+  },
+  {
+    "id": 105,
+    "question": "Jeżeli autobus szkolny zatrzymał się i ma włączone czerwone światła prawo wymaga od innych kierowców aby:",
+    "optiona": "Zatrzymali się dopóki autobus nie odjedzie lub nie wyłączy czerwonych świateł",
+    "optionb": "Nieważne, wystarczy że zatrąbisz",
+    "optionc": "Poczekaj aż samochody z naprzeciwka przejadą",
+    "optiond": "Zredukuj prędkość i ostrożnie wyprzedź",
+    "correct": 1
+  },
+  {
+    "id": 106,
+    "question": "W czasie jazdy najbardziej niebezpiecznnym punktem na drodze jest jazda:",
+    "optiona": "Dwie sekundy lub więcej za pojazdem z przodu",
+    "optionb": "Dwie długości samochodu za pojazdem z przodu",
+    "optionc": "W tak zwanym \"martwym punkcie\" samochodu jadącego obok ciebie",
+    "optiond": "Dwie długości samochodu z przodu pojazdu jadącego za tobą",
+    "correct": 3
+  },
+  {
+    "id": 107,
+    "question": "Jeżeli spowodowałeś wypadek ponieważ używałeś telefonu komórkowego :",
+    "optiona": "Twoje ubezpieczenie może wzrosnąć",
+    "optionb": "Możesz być oskarżony o niebezpieczną jazdę i jeśli będziesz skazany dostaniesz 6 punktów karnych oraz możesz dostać karę pieniężną do $1,000 a także być skazany na 6 miesięcy więzienia",
+    "optionc": "Możesz być oskarżony o niebezpieczną jazdę ale nie będziesz skazany",
+    "optiond": "Nie będziesz oskarżony",
+    "correct": 2
+  },
+  {
+    "id": 108,
+    "question": "Na przystanku tramwajowym musisz się zatrzymać za tramwajem który wysadza pasażerów w odległości: ",
+    "optiona": "2 metrów ",
+    "optionb": "12 metrów ",
+    "optionc": "40 metrów",
+    "optiond": "150 metrów",
+    "correct": 1
+  }
+]

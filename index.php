@@ -55,6 +55,23 @@
             <br>
             <div class="col-lg-8">
                 <div id="get">
+                    <div id="question" class="row pl-2">
+                        <div class="text-left"><strong></strong></div>
+                    </div>
+                    <div id="options" class="pt-3">
+                        <div id="optiona" class="row pl-2">
+                            <i class="far fa-circle d-none d-md-inline"></i><p></p>
+                        </div>
+                        <div id="optionb" class="row pl-2">
+                            <i class="far fa-circle d-none d-md-inline"></i><p></p>
+                        </div>
+                        <div id="optionc" class="row pl-2">
+                            <i class="far fa-circle d-none d-md-inline"></i><p></p>
+                        </div>
+                        <div id="optiond" class="row pl-2">
+                            <i class="far fa-circle d-none d-md-inline"></i><p></p>
+                        </div>
+                    </div>
                 </div>
                 <div id="bottom-bar" class="row justify-content-end">
                     <div class="col-12 col-lg-3 p-2">
