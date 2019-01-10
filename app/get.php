@@ -3,6 +3,7 @@ $q = intval($_GET['q']);
 
 $con = mysqli_connect('den1.mysql6.gear.host','g1polish','Rq049ZDV!NB!','g1polish');
 if (!$con) {
+    echo 'dead';
     die('Could not connect: ' . mysqli_error($con));
 }
 
