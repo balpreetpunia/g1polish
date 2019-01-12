@@ -1,13 +1,13 @@
 $(document).ready(function(){
 
     var position;
-    var total_questions = 40;
+    var total_questions;
     var table_correct;
     var question_array = [];
     var is_mobile;
     var error;
 
-
+    getTotalQuestions();
     setIsMobile();
     getQuestionArray();
     getPosition();
@@ -17,6 +17,14 @@ $(document).ready(function(){
     if(!is_mobile){getTable(total_questions,colorTable);}
     setProgressBar();
 
+    function getTotalQuestions() {
+        if(Cookies.get("total_questions")){
+            total_questions = Cookies.get("total_questions");
+        }
+        else{
+            total_questions = 40;
+        }
+    }
 
     /**
      * Get question array
@@ -124,10 +132,10 @@ $(document).ready(function(){
             console.log(data);
             var correct = data.correct;
             $("#question > div > strong").html(data.question);
-            $("#optiona > p ").html('&nbsp;'+data.optiona);
-            $("#optionb > p ").html('&nbsp;'+data.optionb);
-            $("#optionc > p ").html('&nbsp;'+data.optionc);
-            $("#optiond > p ").html('&nbsp;'+data.optiond);
+            $("#optiona > span ").html('&nbsp;'+data.optiona);
+            $("#optionb > span ").html('&nbsp;'+data.optionb);
+            $("#optionc > span ").html('&nbsp;'+data.optionc);
+            $("#optiond > span ").html('&nbsp;'+data.optiond);
             $("#options > div:nth-child("+correct+")").addClass("correct");
             if(callback) callback();
         });
@@ -140,7 +148,7 @@ $(document).ready(function(){
      * Get table
      */
     function getTable(total_questions, callback){
-        $.get("app/getTable.php?q=" + total_questions, function(data, status){
+        $.get("app/getTable.php?q=" + total_questions, function(data){
             $("#progress-table").html(data);
             callback();
         });
@@ -272,6 +280,5 @@ $(document).ready(function(){
         $("#options, #optiona, #optionb, #optionc, #optiond").removeAttr("style");
         $("#optiona, #optionb, #optionc, #optiond").removeClass("correct");
     }
-
 });
 
