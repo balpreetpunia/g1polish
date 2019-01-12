@@ -121,7 +121,7 @@
                 Cookies.remove('error');
                 Cookies.set('total_questions',40, { expires: 30 });
             }
-            window.location.href += 'g1-practise';
+            window.location.href = '/g1-practise';
         });
 
         $("body").on("click","#rule-all",function(){
@@ -135,7 +135,7 @@
                 Cookies.remove('error');
                 Cookies.set('total_questions',108, { expires: 30 });
             }
-            window.location.href += 'g1-practise';
+            window.location.href = '/g1-practise';
         });
 
         $("body").on("click touchstart","body",function(){});
