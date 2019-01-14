@@ -128,14 +128,15 @@ $(document).ready(function(){
      * Get next question
      */
     function getQuestion(callback){
-        $.getJSON("app/get.php?q="+question_array[position-1], function(data){
-            console.log(data);
-            var correct = data.correct;
-            $("#question > div > strong").html(data.question);
-            $("#optiona > span ").html('&nbsp;'+data.optiona);
-            $("#optionb > span ").html('&nbsp;'+data.optionb);
-            $("#optionc > span ").html('&nbsp;'+data.optionc);
-            $("#optiond > span ").html('&nbsp;'+data.optiond);
+        $.getJSON("/public/javascripts/data.json", function(data) {
+            //console.log(data);
+            var dataPosition = question_array[position-1];
+            var correct = data[dataPosition].correct;
+            $("#question > div > strong").html(data[dataPosition].question);
+            $("#optiona > span ").html('&nbsp;'+data[dataPosition].optiona);
+            $("#optionb > span ").html('&nbsp;'+data[dataPosition].optionb);
+            $("#optionc > span ").html('&nbsp;'+data[dataPosition].optionc);
+            $("#optiond > span ").html('&nbsp;'+data[dataPosition].optiond);
             $("#options > div:nth-child("+correct+")").addClass("correct");
             if(callback) callback();
         });
