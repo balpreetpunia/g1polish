@@ -128,7 +128,7 @@ $(document).ready(function(){
      * Get next question
      */
     function getQuestion(callback){
-        $.getJSON("/public/javascripts/data.json", function(data) {
+        $.getJSON("public/javascripts/data.json", function(data) {
             //console.log(data);
             var dataPosition = question_array[position-1];
             var correct = data[dataPosition].correct;
@@ -148,11 +148,13 @@ $(document).ready(function(){
     /**
      * Get table
      */
-    function getTable(total_questions, callback){
-        $.get("app/getTable.php?q=" + total_questions, function(data){
-            $("#progress-table").html(data);
-            callback();
-        });
+    function getTable(total_questions, callback) {
+        var data ="";
+        for(var i=1;i<=total_questions;i++){
+            data += '<div>'+i+'</div>';
+        }
+        $("#progress-table").html(data);
+        callback();
     }
 
 
