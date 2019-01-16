@@ -51,7 +51,6 @@ $(document).ready(function(){
         console.log(question_array);
     }
 
-
     /**
      * Option click
      */
