@@ -92,8 +92,10 @@ $(document).ready(function(){
         resetStyle();
         $("#skip-button").prop("hidden",false);
         $("#next-button").prop("hidden",true);
-        getQuestion(setProgress());
-        if(!is_mobile){colorCurrent();}
+        if(!checkFinish()){
+            getQuestion(setProgress());
+            if(!is_mobile){colorCurrent();}
+        }
     });
 
 
@@ -112,8 +114,10 @@ $(document).ready(function(){
         Cookies.set('position',position);
         Cookies.set('error',error);
         setError();
-        if(!is_mobile){colorCurrent();}
-        getQuestion(setProgress());
+        if(!checkFinish()){
+            if(!is_mobile){colorCurrent();}
+            getQuestion(setProgress());
+        }
     });
 
     $("body").on("click touchstart","body",function(){
@@ -281,6 +285,20 @@ $(document).ready(function(){
     function resetStyle() {
         $("#options, #optiona, #optionb, #optionc, #optiond").removeAttr("style");
         $("#optiona, #optionb, #optionc, #optiond").removeClass("correct");
+    }
+
+    function checkFinish() {
+        if (position > total_questions){
+            console.log('Finished');
+            console.log('Errors ' + error);
+            console.log('Correct ' + (total_questions - error));
+            $("#quiz").css("display","none");
+            Cookies.remove('position');
+            Cookies.remove('table_correct');
+            Cookies.remove('question_array');
+            Cookies.remove('error');
+            return true;
+        }
     }
 });
 
