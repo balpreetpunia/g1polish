@@ -59,8 +59,8 @@ $(document).ready(function(){
         $(this).css("background-color","#eeeeee");
         correct.css("background-color","#b7dcff");
 
-        $(".correct > p > i").removeClass("fa-circle");
-        $(".correct > p > i").addClass("fa-dot-circle");
+        $(".correct > i").removeClass("fa-circle");
+        $(".correct > i").addClass("fa-dot-circle");
         $("#options").css("pointer-events","none");
 
         if($(this).is(correct)) {
@@ -283,6 +283,8 @@ $(document).ready(function(){
     }
 
     function resetStyle() {
+        $(".correct > i").removeClass("fa-dot-circle");
+        $(".correct > i").addClass("fa-circle");
         $("#options, #optiona, #optionb, #optionc, #optiond").removeAttr("style");
         $("#optiona, #optionb, #optionc, #optiond").removeClass("correct");
     }
