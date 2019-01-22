@@ -220,7 +220,7 @@ $(document).ready(function(){
     /**
      * Reset button
      */
-    $("body").on("click","#reset",function() {
+    $("body").on("click","#reset, #reset-mb",function() {
         Cookies.remove('position');
         Cookies.remove('table_correct');
         Cookies.remove('question_array');
